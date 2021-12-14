@@ -7,6 +7,12 @@ public class UMGAutomatedTesting : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		// PublicDependencyModuleNames.AddRange(new string[] {"UMG", "Slate", "SlateCore"});
-		PrivateDependencyModuleNames.AddRange(new string[] {"Core", "UMG", "Slate", "SlateCore", "UMGExtensions"});
+		PrivateDependencyModuleNames.AddRange(new string[] {"Core"});
+
+		//The path for the header files
+		PublicIncludePaths.AddRange(new string[] {"UMGAutomatedTesting/Public"});
+
+		//The path for the source files
+		PrivateIncludePaths.AddRange(new string[] {"UMGAutomatedTesting/Private"});
 	}
 }

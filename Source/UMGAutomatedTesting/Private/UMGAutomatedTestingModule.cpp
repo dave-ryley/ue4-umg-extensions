@@ -1,6 +1,6 @@
 ﻿// Copyright Dave Ryley. All Rights Reserved.
 
-#include "UMGAutomatedTesting/Public/UMGAutomatedTestingModule.h"
+#include "UMGAutomatedTestingModule.h"
 #include "Modules/ModuleManager.h"
 // #include "Modules/ModuleInterface.h"
 
