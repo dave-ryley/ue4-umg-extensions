@@ -1,6 +1,6 @@
 // Copyright Dave Ryley. All Rights Reserved.
 
-#include "UMGExtensions/Public/UMGExtensionsModule.h"
+#include "UMGExtensionsModule.h"
 #include "Modules/ModuleManager.h"
 // #include "Modules/ModuleInterface.h"
 

@@ -6,7 +6,7 @@ public class UMGExtensions : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        // PublicDependencyModuleNames.AddRange(new string[] {"UMG", "Slate", "SlateCore"});
-        PrivateDependencyModuleNames.AddRange(new string[] {"Core", "UMG", "Slate", "SlateCore"});
+        PublicDependencyModuleNames.AddRange(new string[] {"UMG"});
+        PrivateDependencyModuleNames.AddRange(new string[] {"Core", "Slate", "SlateCore"});
     }
 }
